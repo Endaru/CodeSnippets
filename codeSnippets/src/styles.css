@@ -1,1 +1,63 @@
-/* You can add global styles to this file, and also import other style files */
+* {
+    box-sizing: border-box;
+}
+
+span{
+    font-size:5vw;
+    font-family: fantasy;
+    color: #ffffff;
+    text-shadow:
+            3px 0 0 #000000,
+            -2px 0 0 #000000,
+            0 2px 0 #000000,
+            0 -2px 0 #000000,
+            2px 2px #000000,
+            -2px -2px 0 #000000,
+            2px -2px 0 #000000,
+            -2px 2px 0 #000000;
+}
+
+[class*="col-"] {
+    float: left;
+    padding: 5px;
+}
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+/* Media columns for styling */
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+.row-1 {height: calc(8.33vh - 16px);}
+.row-2 {height: calc(16.66vh - 16px);}
+.row-3 {height: calc(25vh - 16px);}
+.row-4 {height: calc(33.33vh - 16px);}
+.row-5 {height: calc(41.66vh - 16px);}
+.row-6 {height: calc(50vh - 16px);}
+.row-7 {height: calc(58.33vh - 16px);}
+.row-8 {height: calc(66.66vh - 16px);}
+.row-9 {height: calc(75vh - 16px);}
+.row-10 {height: calc(83.33vh - 16px);}
+.row-11 {height: calc(91.66vh - 16px);}
+.row-12 {height: calc(100vh - 16px);}
+
+.black {background-color: black}
+.white {background-color: white}
+.red {background-color: red}
+.blue {background-color: blue}
+.green {background-color: green}
+.yellow {background-color: yellow}/* You can add global styles to this file, and also import other style files */
